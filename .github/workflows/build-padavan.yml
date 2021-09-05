@@ -32,8 +32,8 @@ jobs:
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
     - name: Clone source code
       run: |
-        #git clone --depth=1 https://github.com/presisco/rt-n56u.git /opt/rt-n56u
-        git clone --depth=1 https://github.com/hanwckf/rt-n56u.git /opt/rt-n56u
+        git clone --depth=1 https://github.com/presisco/rt-n56u.git /opt/rt-n56u
+        #git clone --depth=1 https://github.com/hanwckf/rt-n56u.git /opt/rt-n56u
         #git clone --depth=1 https://github.com/MeIsReallyBa/rt-n56u.git /opt/rt-n56u
         #git clone --depth=1 https://github.com/padavanonly/rt-n56u.git /opt/rt-n56u
         #git clone --depth=1 https://github.com/240038901/rt-n56u.git /opt/rt-n56u
